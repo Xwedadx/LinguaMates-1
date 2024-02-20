@@ -54,10 +54,12 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
+  z-index: 10;
 }
 
 header {
   position: relative;
+  z-index: 70;
 }
 
 header .container {
@@ -733,5 +735,3 @@ header .container {
     }
   }
 }
-
-
